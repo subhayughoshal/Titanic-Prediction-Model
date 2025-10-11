@@ -41,7 +41,7 @@ The dataset consists of:
 
 5. **Predictions and Submission**:
    - Generated predictions on `test.csv` using the best model.
-   - Saved predictions to `best_model_predictions.csv` for Kaggle submission.
+   - Saved predictions to `my_model_predictions.csv` for Kaggle submission.
    - Compared predictions to `gender_submission.csv` (if available) for agreement (~70-90%).
 
 ## *Dependencies*
@@ -50,3 +50,10 @@ The dataset consists of:
 - Install dependencies:
   ```bash
   pip install pandas numpy matplotlib seaborn scikit-learn xgboost
+
+
+## *How to Run*
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/<your-username>/<your-repo-name>.git
+   cd <your-repo-name>
